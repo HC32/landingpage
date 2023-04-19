@@ -34,6 +34,19 @@ a {
 .main {
     display: flex;
     height: 200px;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-right {
+    display: flex;
+    padding: 100px;
 }
 
 .info {
@@ -45,6 +58,22 @@ a {
 .gray {
     display: flex;
     height: 200px;
+    background-color: lightgray;
+    align-items: center;
+    padding: 100px 10%;
+}
+
+.words {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.source  {
+    display: flex;
+    justify-content: end;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .footer {
