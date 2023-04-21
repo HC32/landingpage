@@ -8,27 +8,34 @@ body {
 
 .header {
     display: flex;
-    height: 72px;
+    height: 42px;
     justify-content: space-between;
-    align-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 10px 30px;
 }
 
 li {
     display: flex;
     flex-direction: row;
     list-style: none;
+    padding: 0px 10px;
+}
+
+.headerlogo {
+    display: flex;
+    
 }
 
 .headerlinks {
     display: flex;
     flex-direction: row;
     margin: 0;
-    padding: 0;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #f9faf8;
 }
 
 .main {
@@ -36,6 +43,15 @@ a {
     height: 200px;
     background-color: #1F2937;
     color: #f9faf8;
+    padding: 0px 30px 20px;
+    margin-top: -20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
 }
 
 .main-left {
@@ -51,8 +67,11 @@ a {
 
 .info {
     display: flex;
-    height: 200px;
+    height: 300px;
     flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+    padding: 0px 200px;
 }
 
 .gray {
@@ -76,18 +95,43 @@ a {
     font-weight: bold;
 }
 
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 30px;
+}
+
+.button-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-button {
+    display: flex;
+    margin: 10px;
+}
+
 .footer {
     display: flex;
     height: 72px;
+    justify-content: center;
+    padding: 0px 30px;
 }
 
 .info-header {
     display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .boxes {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
 }
 
 .left,
@@ -96,6 +140,10 @@ a {
 .right {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    font-size: 8px;
 }
 
 .card {
@@ -104,7 +152,13 @@ a {
     border: 2px solid blue;
     height: 20px;
     width: 20px;
-    padding: 16px;
-    margin: 16px;
+    padding: 48px;
+    margin: 4px 16px;
     border-radius: 8px;
+}
+
+.text {
+    display: flex;
+    padding: 0px 10px;
+    text-align: center;
 }
